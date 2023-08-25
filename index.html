@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | E-commerce product page</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="dark-overlay">
+  </div>
+  <div id="preview-last">
+    <img id="pre-close" src="./images/icon-close.svg" alt="" id="pre-close">
+    <div id="pre-one">
+      <img id="pre-image1" src="./images/image-product-1.jpg" alt="">
+      <img id="pre-image2" src="./images/image-product-2.jpg" alt="">
+      <img id="pre-image3" src="./images/image-product-3.jpg" alt="">
+      <img id="pre-image4" src="./images/image-product-4.jpg" alt="">
+    </div>
+    <div id="pre-two">
+    <img id="pre-image11" src="./images/image-product-1.jpg" alt="">
+    <img id="pre-image22" src="./images/image-product-2.jpg" alt="">
+    <img id="pre-image33" src="./images/image-product-3.jpg" alt="">
+    <img id="pre-image44" src="./images/image-product-4.jpg" alt="">
+  </div>
+  <div id="main-button-1">
+    <button type="button" id="button-lelf-1"> <img src="./images/icon-previous.svg" alt=""> </button>
+    <button type="button" id="button-right-1"> <img src="./images/icon-next.svg" alt=""> </button>
+    </div>
+  </div>
+  <div id="nav-mobile">
+    <img src="./images/icon-close.svg" alt="" id="close">
+    <a href="" class="navigator-m">Collections</a>
+    <a href="" class="navigator-m">Men</a>
+    <a href="" class="navigator-m">Women</a>
+    <a href="" class="navigator-m">About</a>
+    <a href="" class="navigator-m">Contact</a>
+  </div>
+  <div id="cart-item">
+    <h3>Cart</h3>
+    <div id="cart-text">
+    <h4>Your cart is empty.</h4>
+  </div>
+  <div id="cart-div">
+    <div class="flex" id="cart-image">
+      <img src="./images/image-product-1-thumbnail.jpg" alt="">
+      <div id="cart-image-text" class="flex">
+      <p>Fall Limited Edition Sneakers</p>
+      <div id="number-wow" class="flex">$125.00 x&nbsp<p id="output-cart-1"></p> &nbsp<p id="output-cart-2"></p></div>
+    </div>
+    <div id="del-div">
+      <img type="button" id="delete"src="./images/icon-delete.svg" alt="">
+    </div>
+    </div>
+  </div>
+    <button id=cart-but type="button">Checkout</button>
+  </div>
+
+  <div class="flex" id="container">
+
+    <nav class="flex" id="navigator-container">
+      <div class="flex" id="nav-one">
+      <img src="./images/icon-menu.svg" alt="" id="menu">
+      <img src="./images/logo.svg" alt="" id="logo">
+      <div id="nav-desktop">
+        <a href="" class="navigator">Collections</a>
+        <a href="" class="navigator">Men</a>
+        <a href="" class="navigator">Women</a>
+        <a href="" class="navigator">About</a>
+        <a href="" class="navigator">Contact</a>
+      </div>
+      </div>
+      <div id="nav-two">
+      <img src="./images/icon-cart.svg" alt="" id="cart">
+      <img src="./images/image-avatar.png" alt="" id="profile">
+      <div id="cart-last-input">
+        
+      </div>
+     </div>
+     <div id="border-container">  </div>
+    </nav>
+
+
+    <div id="main-image-container">
+    <aside id="image-container">
+      <img id="image-1" class="image-slider" src="./images/image-product-1.jpg" alt="">
+      <img id="image-2" class="image-slider" src="./images/image-product-2.jpg" alt="">
+      <img id="image-3" class="image-slider" src="./images/image-product-3.jpg" alt="">
+      <img id="image-4" class="image-slider" src="./images/image-product-4.jpg" alt="">
+      <div id="main-button">
+      <button type="button" id="button-lelf"> <img src="./images/icon-previous.svg" alt=""> </button>
+      <button type="button" id="button-right"> <img src="./images/icon-next.svg" alt=""> </button>
+      </div>
+      <div class="" id="preview-container">
+      <img id="preview-1" src="./images/image-product-1-thumbnail.jpg" alt="" class="preview">
+      <img id="preview-2" src="./images/image-product-3-thumbnail.jpg" alt="" class="preview">
+      <img id="preview-3" src="./images/image-product-3-thumbnail.jpg" alt="" class="preview">
+      <img id="preview-4" src="./images/image-product-4-thumbnail.jpg" alt="" class="preview">
+    </div>
+    </aside>
+    <main id="main-container">
+      <h3>SNEAKER COMPANY</h3>
+      <h1 class="tittle">Fall Limited Edition Sneakers</h1>
+      <p>These low-profile sneakers are your perfect casual wear companion. Featuring a 
+        durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+        <div class="flex" id="price-container">
+          <div class="flex" id="diss-container">
+          <h1>$125.00</h1>
+          <h2> 50%</h2>
+          </div>
+          <h2><s>$250.00</s></h2>
+        </div>
+        <div id="number-cart">
+        <div class="flex" id="plus-minus">
+          <button id="minus-btn" type="button"><img src="./images/icon-minus.svg" alt=""></button>
+          <p id="output-p">0</p>
+          <button id="plus-btn" type="button"><img src="./images/icon-plus.svg" alt=""></button>
+        </div>
+        <button id="cart-button"type="button"><img src="./images/cart2.svg" alt="">&nbsp&nbsp Add to cart</button>
+      </div>
+      </main>
+    </div>
+
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
